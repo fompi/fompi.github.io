@@ -1,0 +1,48 @@
+body {
+	background-color: #F0F0F0;
+	text-align: center;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+
+#container {
+	background-color: #E5E5E5;
+	margin: 2.813em auto 0 auto;
+	border: 0.125em dotted;
+	border-color: #555555;
+	width: 21.875em;
+	padding-top: 1.563em;
+	padding-bottom: 1.875em;
+
+}
+
+ul {
+	padding: 0em;
+	margin: 1.563em auto;
+	list-style-type: none;
+}
+hr {
+    border: 0.125em dashed #777777;
+    border-style: none none dashed; 
+    width: 13.750em;
+}
+
+li {
+	text-align: center;
+	background-color: #F4F4F4;
+	border: 0.063em solid;
+	font-family: "Bitstream Vera Sans", "Nimbus Sans L", Arial, sans-serif;
+	font-size: 15pt;
+	margin-top: 0.563em;
+	margin-left: auto;
+	margin-right: auto;
+	width: 11.250em;
+	padding-top: 0.375em;
+	padding-bottom: 0.438em;
+}
+
+#menu {
+  padding-top: 1.063em;
+}

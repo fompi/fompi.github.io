@@ -1,5 +1,5 @@
 body {
-	background-color: #F0F0F0;
+	background-color: #EEEEEE;
 	text-align: center;
 }
 a {
@@ -10,7 +10,7 @@ a {
 #container {
 	background-color: #E5E5E5;
 	margin: 2.813em auto 0 auto;
-	border: 0.125em dotted;
+  //  border: 0.125em dotted;
 	border-color: #555555;
 	width: 21.875em;
 	padding-top: 1.563em;
@@ -24,14 +24,15 @@ ul {
 	list-style-type: none;
 }
 hr {
-    border: 0.125em dashed #777777;
-    border-style: none none dashed; 
-    width: 13.750em;
+  border: 0.125em dashed #777777;
+  border-style: none none dashed; 
+  width: 13.750em;
+  display: none;
 }
 
 li {
 	text-align: center;
-	background-color: #F4F4F4;
+	background-color: #EBEBEB;
 	border: 0.063em solid;
 	font-family: "Bitstream Vera Sans", "Nimbus Sans L", Arial, sans-serif;
 	font-size: 15pt;

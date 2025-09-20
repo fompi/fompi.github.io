@@ -1,0 +1,19 @@
+- label: "X / Twitter"
+  url: "https://x.com/fompi"
+  icon: "x"
+
+- label: "LinkedIn"
+  url: "https://www.linkedin.com/in/fompi"
+  icon: "linkedin"
+
+- label: "Facebook"
+  url: "https://facebook.com/fompi"
+  icon: "facebook"
+
+- label: "Instagram"
+  url: "https://instagram.com/fompi"
+  icon: "instagram"
+
+- label: "Website"
+  url: "https://fompi.dev"
+  icon: "link"

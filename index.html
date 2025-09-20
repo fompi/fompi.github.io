@@ -1,0 +1,42 @@
+---
+layout: null
+---
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{ site.title | default: site.name }}</title>
+  <meta name="description" content="{{ site.description }}" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="/assets/styles.css" />
+  <meta name="theme-color" content="{{ site.brand_color | default: '#111827' }}" />
+</head>
+<body>
+  <main class="container">
+    <section class="card">
+      <header class="header">
+        {% if site.avatar_url %}
+          <img class="avatar" src="{{ site.avatar_url }}" alt="Avatar de {{ site.name }}"/>
+        {% endif %}
+        <div class="hgroup">
+          <h1 class="name">{{ site.name }}</h1>
+          {% if site.bio %}<p class="bio">{{ site.bio }}</p>{% endif %}
+        </div>
+      </header>
+
+      <nav class="links">
+        {% assign items = site.data.links %}
+        {% for item in items %}
+          <a class="link" href="{{ item.url }}" target="_blank" rel="noopener">
+            <span class="icon">{% include icons.html name=item.icon %}</span>
+            <span>{{ item.label }}</span>
+          </a>
+        {% endfor %}
+      </nav>
+
+      <p class="footer">Hecho con ❤️ · {{ site.name }}</p>
+    </section>
+  </main>
+</body>
+</html>
